@@ -1,0 +1,96 @@
+.movied{
+  background-image: url("https://img.freepik.com/free-photo/layout-popcorn-with-cinema-objects_23-2147807379.jpg?uid=R182221324&ga=GA1.1.1459837234.1736409783&semt=ais_hybrid&w=740");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* optional - for fixed background */
+    height: 100vh; /* adjust as needed */
+    width: 100%; /* adjust as needed */
+}
+
+
+.movie-detail-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+   
+  }
+  
+  .movie-info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .movie-poster {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .movie-details h1 {
+    margin: 0;
+  }
+
+  .movie-details p {
+  font-family: 'Times New Roman', Times, serif;
+  color: #0d0e0d;
+  font-size: larger;
+  }
+  
+  .booking-section {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .showtimes button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .showtimes .selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .seat-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .seat:hover {
+    background-color: #ddd;
+  }
+  
+  .seat.selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .book-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2196f3;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

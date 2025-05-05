@@ -1,0 +1,122 @@
+/* Contact Us Styles */
+
+
+.contact{
+    background-image: url("https://img.freepik.com/premium-photo/headset-customer-support-equipment-call-center-ready-actively-service-communication-support-call-center-customer-service-help-deskfor-call-center-concept_545612-959.jpg?uid=R182221324&ga=GA1.1.1459837234.1736409783&semt=ais_hybrid&w=740");
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed; /* optional - for fixed background */
+height: 100%; /* adjust as needed */
+width: 100%; /* adjust as needed */
+}
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #f5a623;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.contact-form, .contact-info {
+  flex: 1;
+  min-width: 300px;
+  background: #f3f0f0;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(245, 167, 167, 0.2);
+}
+
+.contact-form h2, .contact-info h2 {
+  color: #f5a623;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #0c0c0c;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid;
+  border-radius: 4px;
+  background: #fcfafa;
+  color: #0f0f0f;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background: #f5a623;
+  color: #222;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: #e6951f;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-icon {
+  color: #f5a623;
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+}
+
+.info-item h3 {
+  color: #f5a623;
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+}
+
+.info-item p {
+  color: #0c0c0c;
+  margin: 0;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,55 @@
+.home-container {
+    text-align: center;
+  
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("   https://img.freepik.com/premium-photo/paper-bag-with-popcorn-movie-reel_252025-602.jpg?uid=R182221324&ga=GA1.1.1459837234.1736409783&semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* optional - for fixed background */
+    height: 100vh; /* adjust as needed */
+    width: 100%; /* adjust as needed */
+  }
+  
+  .home-container h1 {
+    font-size: 3.5rem;
+    color: #f2f2f5;
+    margin-top: 120px;
+    
+  }
+  
+  .home-container p {
+    font-size: 2rem;
+    padding: 10px;
+    color: #f4f7f8;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    margin-bottom: 30px;
+  }
+  
+  .home-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #6205f8;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .home-btn:hover {
+    background-color: #fab41e;
+  }
+  
+  .home-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  

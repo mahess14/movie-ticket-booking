@@ -1,0 +1,58 @@
+.moviel{
+  background-image: url("https://img.freepik.com/free-psd/movie-mockup-with-frame_23-2147703994.jpg?uid=R182221324&ga=GA1.1.1459837234.1736409783&semt=ais_hybrid&w=740");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* optional - for fixed background */
+    height: 100%; /* adjust as needed */
+    width: 100%; /* adjust as needed */
+}
+
+
+.movie-list {
+    padding: 20px;
+    text-align: center;
+  }
+  .movie-list h2{
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-family:'Times New Roman', Times, serif;
+  }
+
+
+  .movie-list p{
+    text-align: center;
+    color: rgb(79, 5, 253);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .movie-card {
+    display: inline-block;
+    width: 250px; /* or any fixed width */
+    height: 400px; /* same height for all */
+    vertical-align: top;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 250px;
+    object-fit:fill;
+    border-radius: 12px;
+  }
+  
+  .movie-card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  

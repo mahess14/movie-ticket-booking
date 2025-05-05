@@ -1,0 +1,97 @@
+.bookingt{
+  background-image: url("https://img.freepik.com/free-photo/family-different-generations-cinema_23-2148202092.jpg?uid=R182221324&ga=GA1.1.1459837234.1736409783&semt=ais_hybrid&w=740");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional - for fixed background */
+  height: 100%; /* adjust as needed */
+  width: 100%; /* adjust as needed */
+
+}
+
+.booking-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f89191;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .booking-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .booking-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #f2f2f7;
+  }
+  
+  .seat-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-items: center;
+  }
+  .tp3 h2{
+color: #fa5103;
+  }
+  .tp3 h3{
+    color: #17862f;
+      }
+      .tp3 h4{
+        color: #051dfc;
+          }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .seat:hover {
+    background-color: #ddd;
+  }
+  
+  .seat.selected {
+    background-color:#218838;
+    color: white;
+    border-color:#218838;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 12px ;
+    border: 1px solid #f5f1f1;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .book-btn {
+    background-color:#D49E00;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #0056b3;
+  }
+  

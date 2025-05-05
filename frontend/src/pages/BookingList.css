@@ -1,0 +1,53 @@
+.bookingl{
+
+
+background-image: url("https://img.freepik.com/free-photo/composition-cinema-elements-pink-background_23-2148416789.jpg?uid=R182221324&ga=GA1.1.1459837234.1736409783&semt=ais_hybrid&w=740");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed; /* optional - for fixed background */
+height: 100%; /* adjust as needed */
+width: 100%; /* adjust as needed */
+
+}
+.booking-list-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .booking-list-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #f30808;
+    padding-top: 50px;
+  }
+  
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .booking-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .booking-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  /* Responsive table */
+@media (max-width: 768px) {
+  .booking-table {
+    display: block;
+    overflow-x: auto;
+  }
+}
