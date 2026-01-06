@@ -11,10 +11,10 @@ app.use(express.json());
 
 
 
-mongoose.connect('mongodb://localhost:27017/movietickets-gmk', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("MongoDB connected"))
+  .catch(err => console.error(err));
+
 
 app.use('/api/movies', movieRoutes);
 app.use('/api/bookings', bookingRoutes);
