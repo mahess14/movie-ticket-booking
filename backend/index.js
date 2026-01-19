@@ -12,6 +12,16 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(err => console.error(err));
 
 
+<<<<<<< HEAD:backend/index.js
+=======
+
+
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("MongoDB connected"))
+  .catch(err => console.error(err));
+
+
+>>>>>>> c3569e2968b777e7e5c9f1d8c0d9fd94f1a1b55b:backend/server.js
 app.use('/api/movies', movieRoutes);
 app.use('/api/bookings', bookingRoutes);
 app.use("/api/users", userRoutes);
